@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="10.18.103.38-云门诊测试" uuid="fffca0e5-2fae-4646-b51f-26d216868ab7">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:PHIS</introspection-schemas>
+    </data-source>
+    <data-source name="10.18.102.14-云门诊正式" uuid="8b1aba01-e928-4271-a4ea-a2efbc6c013a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+    <data-source name="nursing-app@10.18.103.31" uuid="62ae75b8-265d-4f07-a73e-4e7db5afb8fc">
+      <database-info product="MySQL" version="5.6.14-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>zyycs</user-name>
+      <introspection-schemas>*:nursing-app</introspection-schemas>
+    </data-source>
+    <data-source name="10.18.103.63-his测试" uuid="e6dfb08c-de33-4329-99cb-d7240c46c07f">
+      <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.2" driver-name="Oracle JDBC driver" driver-version="12.2.0.1.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>dms</user-name>
+    </data-source>
+    <data-source name="10.18.103.38-互联网医院测试" uuid="4f69f214-9431-4fbc-9549-f6321779a0ca">
+      <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.2" driver-name="Oracle JDBC driver" driver-version="12.2.0.1.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <user-name>hbzyyapp</user-name>
+      <introspection-schemas>*:PHIS</introspection-schemas>
+    </data-source>
+    <data-source name="10.18.102.14-互联网医院正式" uuid="53168d08-54b1-45c2-886d-bd45db477ac0">
+      <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#10;With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,&#10;Data Mining and Real Application Testing options" jdbc-version="4.2" driver-name="Oracle JDBC driver" driver-version="12.2.0.1.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <user-name>hbzyyapp</user-name>
+    </data-source>
+    <data-source name="10.18.103.38-竹山测试" uuid="9814141c-d65d-4d89-906a-b4d0a2e8527d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>zsyyapp</user-name>
+      <introspection-schemas>*:PHIS</introspection-schemas>
+    </data-source>
+  </component>
+</project>
